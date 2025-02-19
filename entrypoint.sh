@@ -21,4 +21,4 @@ if [ -z "$B2_BUCKET" ]; then
   exit 1
 fi
 
-b2 sync --delete --replaceNewer ${SOURCE_DIR} ${B2_BUCKET}
+b2 sync --delete --replace-newer ${SOURCE_DIR} ${B2_BUCKET}
